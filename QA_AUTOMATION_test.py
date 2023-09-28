@@ -18,7 +18,7 @@ def form_array(array_length):
         
     return formed_array
     
-def form_massive2(num_of_iter):
+def form_massive(num_of_iter):
     unused_len =list(range(0, num_of_iter*10))
     used_len = rnd.sample(unused_len, num_of_iter)
     formed_massive = []
@@ -33,5 +33,5 @@ def form_massive2(num_of_iter):
     return formed_massive
 
 if __name__ == '__main__':
-    new_massive = form_massive2(100)
+    new_massive = form_massive(100)
 
