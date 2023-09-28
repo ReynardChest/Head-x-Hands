@@ -1,6 +1,5 @@
 import random as rnd
-
-    
+   
 def sort_array_by_parity(array, array_num):
     sorted_array = array
         
@@ -31,7 +30,3 @@ def form_massive(num_of_iter):
         formed_massive.append(cur_array)
         
     return formed_massive
-
-if __name__ == '__main__':
-    new_massive = form_massive(100)
-
